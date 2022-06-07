@@ -1,0 +1,15 @@
+.top__text_content {
+  height: 36px;
+  background: #7f56d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}

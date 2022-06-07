@@ -1,0 +1,29 @@
+@import "./top.css";
+@import "./nav.css";
+@import "./header.css";
+@import "./project.css";
+@import "./expert.css";
+@import "./carts.css";
+@import "./blog.css";
+@import "./footer.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    max-width: 1376px;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn{
+    background: #7F56D9;
+    border: none;
+    cursor: pointer;
+}
+html{
+    overflow-x: hidden;
+}

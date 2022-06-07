@@ -1,0 +1,71 @@
+#expert {
+  margin: 0 15px;
+  margin-top: 185px;
+}
+.expert__content {
+  margin: 0 auto;
+}
+.expert__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #101828;
+  max-width: 937px;
+  width: 100%;
+  margin-bottom: 105px;
+}
+.export__texts {
+  margin-top: 126px;
+}
+.export__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+  max-width: 681px;
+  width: 100%;
+  margin-left: 24.5%;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.expert__btn {
+  margin-left: 24.5%;
+  margin-top: 63px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 34px;
+  cursor: pointer;
+}
+.expert {
+  max-width: 1376px;
+  width: 100%;
+}
+@media only screen and (max-width: 800px) {
+  .expert__title{
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+  }
+}
+@media only screen and (max-width: 950px) {
+.export__text{
+  margin: 15px 15px;
+}
+.expert__btn{
+  margin: 15px 15px;
+}
+}

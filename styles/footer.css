@@ -1,0 +1,104 @@
+footer{
+    border-top: 1px solid #E4E7EC;
+    margin-top: 146px;
+    padding-top: 66px;
+}
+.footer__content{
+    margin: 0 15px;
+}
+.footer__contacts{
+    border-bottom: 1px solid #E4E7EC;
+    padding-bottom: 62px;
+}
+.footer__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #101828;
+}
+.footer__title_purple {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: 1.5px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #6941c6;
+}
+
+.logo__footer{
+    margin-bottom: 28px;
+    margin-left: -13.5px;
+}
+.footer__ul{
+    margin-left: -15px;
+}
+#need{
+    margin: 0 15px;
+    margin-top: 246px;
+}
+.need__content{
+    margin: 0 auto;
+}
+.sec__footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 306px;
+width: 100%;
+}
+.sec__footer span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #98A2B3;
+}
+.tabs{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.under__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 34px;
+    margin-left: -12px;
+    padding-bottom: 26px;
+}
+
+@media only screen and (max-width: 850px) {
+    .footer__ul{
+        display: block;
+        margin: 15px;
+    }
+    .logo__footer{
+        margin: 15px;
+    }
+    .footer__links{
+        margin: 10px;
+    }
+    .under__footer{
+        display: block;
+        margin: 0 10px;
+    }
+    .sec__footer{
+        margin-top: 10px;
+    }
+    }

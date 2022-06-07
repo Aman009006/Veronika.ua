@@ -1,0 +1,107 @@
+#blogs {
+    margin: 0 15px;
+  margin-top: 198px;
+}
+.blogs__content {
+  margin: 0 auto;
+}
+.blog__img {
+  max-width: 672px;
+  width: 100%;
+}
+.blogs__carts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blogs__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 60px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #101828;
+  margin-bottom: 40px;
+}
+.blogs__descr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 606px;
+  width: 100%;
+  color: #667085;
+}
+.blogs__controll {
+  display: flex;
+  justify-content: space-between;
+}
+.blogs__btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 145px;
+  height: 43px;
+  margin-top: 13px;
+}
+.blog__cart {
+  margin-top: 61px;
+}
+.blog__cart_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #344054;
+  background: #f2f4f7;
+  border-radius: 16px;
+  padding: 3px 12px;
+  width: 112px;
+  text-align: center;
+  margin-top: 28px;
+}
+.blog__cart_title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #101828;
+  margin-top: 18px;
+}
+.blog__card_sub {
+  margin-top: 20px;
+  max-width: 619px;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  margin-bottom: 30px;
+}
+.read__more {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #6941c6;
+}
+@media only screen and (max-width: 830px) {
+.blogs__controll{
+  display: block;
+}
+}
