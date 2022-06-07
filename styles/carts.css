@@ -69,4 +69,11 @@
    max-height: 500px;
    height: 100%;
  }
+
   }
+@media only screen and (max-width: 1400px) {
+  .comments__content{
+    display: flex;
+   justify-content: center;
+  }
+}

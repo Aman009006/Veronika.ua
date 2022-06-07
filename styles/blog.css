@@ -105,3 +105,17 @@
   display: block;
 }
 }
+@media only screen and (max-width: 1380px) {
+.blogs__carts{
+  display: block;
+  flex-wrap: nowrap;
+}
+.blog__cart{
+  max-width: 672px;
+  max-height: 576px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 61px;
+}
+}

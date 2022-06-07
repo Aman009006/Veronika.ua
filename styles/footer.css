@@ -33,12 +33,13 @@ footer{
 }
 
 .logo__footer{
-    margin-bottom: 28px;
-    margin-left: -13.5px;
+    margin-bottom: 13px;
+    margin: 15px;
 }
 .footer__ul{
-    margin-left: -15px;
+    margin: 15px;
 }
+
 #need{
     margin: 0 15px;
     margin-top: 246px;

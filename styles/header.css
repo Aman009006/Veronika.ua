@@ -18,8 +18,16 @@
   max-width: 961px;
   width: 100%;
   padding-bottom: 60px;
+  margin-left: 15px;
+}
+.logo{
+    margin-left: 15px;
+}
+.nav__btn{
+    margin-right: 15px;
 }
 .header__descr {
+    margin-left: 15px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -64,4 +72,21 @@
     color: #000000;
     margin: 0 15px;
   }
+}
+.women__header_{
+    display: none;
+}
+@media only screen and (max-width: 630px) {
+.women__header{
+    display: none;
+}
+.arrow__header{
+    display: none;
+}
+.women__header_{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+}
 }
