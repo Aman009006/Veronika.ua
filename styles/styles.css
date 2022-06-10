@@ -24,6 +24,11 @@
     border: none;
     cursor: pointer;
 }
-html{
-    overflow-x: hidden;
-}
+
+.btn:focus{
+    outline: 3px solid #5AB0FF;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
