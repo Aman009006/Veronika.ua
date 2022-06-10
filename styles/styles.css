@@ -24,7 +24,12 @@
     border: none;
     cursor: pointer;
 }
-
+.btn:hover{
+    background: #7f56d996;
+  }
+li:hover{
+opacity: 0.7;
+}
 .btn:focus{
     outline: 3px solid #5AB0FF;
   }
